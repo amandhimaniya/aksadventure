@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKS GROUP</title>
+    <!-- Link the tailwindcss -->
+    <link href="style.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <style>
+        .flex items-center justify-between {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <!--Section -1 -->
+    <header class="bg-white" , shadow-md>
+        <div class="container mx-auto px-4 py-3 bg-slate-300">
+
+            <nav class="flex items-center justify-between display:flex;">
+                <div class="text-xl font-bold ">
+                    AKS GROUP
+                </div>
+                <form action="#" class="search-form">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <button type="submit" class="search-button">Search</button>
+                </form>
+                <ul class="flex space-x-4 display:flex; display:fix">
+                    <li><a href="index.html" class="text-blue-600 hover:text-blue-800">Home</a></li>
+                    <li><a href="#" class="text-blue-600 hover:text-blue-800">Destinations</a></li>
+                    <li><a href="#" class="text-blue-600 hover:text-blue-800">Tours</a></li>
+                    <li><a href="" class="text-blue-600 hover:text-blue-800">Contact</a></li>
+                    <li><a href="#" class="text-blue-600 hover:text-blue-800"><label for="Services"></label>
+                            <select name="Services" id="Services">
+                                <option value="Airlines">Airlines</option>
+                                <option value="Hotel">Hotel</option>
+                                <option value="Camping">Camping</option>
+                                <option value="Travel Stories" selected>Services</option>
+                                <option value="Bus">Bus</option>
+                                <option value="Rafting" disabled>Rafting</option>
+
+                            </select>
+                        </a></li>
+                    <li><a href="loginpage.html" class="text-blue-600 hover:text-blue-800">Signin/Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Section -2 -->
+    <section class="bg-cover bg-center h-screen flex items-center" style="background-image: url('nightview.png');">
+        <div class="container mx-auto px-4 py-8 text-white">
+            <h1 class="text-4xl md:text-6xl font-bold ">Where Dreams Take Flight, and Memories Await</h1>
+            <p class="text-lg mt-4 md:w-1/2 text-zinc-950" style="color: whitesmoke;">Are you looking for a
+                Unique,Memorable Experiences ? explore our
+                Varitety of Amazing Tour. Experience our Great Tours. Discover Different Places and Cultures. Contact
+                us.</p>
+            <a href="loginpage.html"
+                class="mt-6 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg inline-block text-white font-bold">Book
+                Now</a>
+        </div>
+    </section>
+
+    <!--Section -3 -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Featured Destinations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Some destinations cards here -->
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">New York City, USA</h3>
+                    <p>A bustling metropolis with a diverse array of attractions, including Broadway shows, museums,
+                        iconic
+                        skyscrapers, and a vibrant food scene.</p>
+                    <a href="#" class="mt-4 block text-blue-600 hover:text-blue-800 font-bold">See More</a>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Paris, France</h3>
+                    <p>The "City of Love" is renowned for its romantic ambiance, iconic landmarks like the Eiffel Tower
+                        and Louvre
+                        Museum, and its world-class cuisine.</p>
+                    <a href="#" class="mt-4 block text-blue-600 hover:text-blue-800 font-bold">See More</a>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Dubai, UAE</h3>
+                    <p> An extravagant city with impressive skyscrapers, luxurious resorts, and world-class shopping and
+                        entertainment options.</p>
+                    <a href="#" class="mt-4 block text-blue-600 hover:text-blue-800 font-bold">See More</a>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Cape Town, South Africa</h3>
+                    <p> A picturesque city surrounded by stunning natural beauty, with Table Mountain, beautiful
+                        beaches, and
+                        nearby wine regions.</p>
+                    <a href="#" class="mt-4 block text-blue-600 hover:text-blue-800 font-bold">See More</a>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Tokyo, Japan</h3>
+                    <p>A futuristic city that seamlessly blends tradition and modernity, offering visitors unique
+                        experiences,
+                        from ancient temples to high-tech districts.</p>
+                    <a href="#" class="mt-4 block text-blue-600 hover:text-blue-800 font-bold">See More</a>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Goa, India</h3>
+                    <p> Bali, Indonesia: Known for its stunning beaches, lush landscapes, rich culture, and vibrant
+                        nightlife,
+                        Bali attracts travelers seeking relaxation and adventure alike.</p>
+                    <a href="#" class="mt-4 block text-blue-600 hover:text-blue-800 font-bold">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Aks Group, Gurugram</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>858689xxxx 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>aksgroups@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="download-removebg-preview.png" class="img-fluid"
+                                        alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Where Dreams Take Flight, and Memories Await.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="facebook.com"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="twitter.com"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="google.com"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="Webpage.html">Home</a></li>
+                                <li><a href="">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button>Submit<i class="submit"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="Term And condition.pdf">Terms</a></li>
+                                <li><a href="Term And condition.pdf">Privacy</a></li>
+                                <li><a href="Term And condition.pdf">Policy</a></li>
+                                <li><a href="abc@gmail.com">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
